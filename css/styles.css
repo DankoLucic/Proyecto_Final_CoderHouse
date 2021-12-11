@@ -1,0 +1,19 @@
+/* LOCAL STYLES */
+#titulo-texto {
+  font-family: 'Jura', sans-serif;
+  color: #c7c7c7;
+  font-size: 30px;
+  letter-spacing: 5px; }
+
+#img-iceberg {
+  width: 100px;
+  background-color: #f6f6f6;
+  border-radius: 50%;
+  border: solid 2px #f6f6f6; }
+
+#carousel-cabecera {
+  max-width: 1050px;
+  max-height: 440px; }
+
+
+

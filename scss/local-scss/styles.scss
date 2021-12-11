@@ -1,0 +1,22 @@
+/* LOCAL STYLES */
+
+@import "local-scss/local-variables";
+
+#titulo-texto{
+    font-family: 'Jura', sans-serif;
+    color: #c7c7c7;
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+
+#img-iceberg{
+    width:$width-logo-iceberg;
+    background-color: $backgroundcolor-logo-iceberg;
+    border-radius: $borderradius-logo-iceberg;
+    border: $border-logo-iceberg;
+}
+
+#carousel-cabecera{
+    max-width: 1050px;
+    max-height: 440px;
+}
