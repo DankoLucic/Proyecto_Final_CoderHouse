@@ -1,0 +1,7 @@
+//LOCAL MIXINS
+
+@mixin max-size-carousel($max-width, $max-height) {
+    max-width: $max-width;
+    max-height: $max-height;
+    
+}

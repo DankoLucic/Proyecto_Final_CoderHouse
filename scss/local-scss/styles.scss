@@ -1,12 +1,13 @@
 /* LOCAL STYLES */
 
 @import "local-scss/local-variables";
+@import "local-scss/local-mixins";
 
 #titulo-texto{
     font-family: 'Jura', sans-serif;
     color: #c7c7c7;
-    font-size: 30px;
-    letter-spacing: 5px;
+    font-size: $font-size-titulo;
+    letter-spacing: $letter-spacing-titulo;
 }
 
 #img-iceberg{
@@ -16,7 +17,6 @@
     border: $border-logo-iceberg;
 }
 
-#carousel-cabecera{
-    max-width: 1050px;
-    max-height: 440px;
+#carousel-cabecera {
+    @include max-size-carousel(1050px, 440px);
 }
